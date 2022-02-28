@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: rgb(34, 37, 36);
+}
+
+#drum-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+}
+
+.drum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: calc(30%);
+    background: radial-gradient(rgb(23, 131, 131), rgb(0, 0, 0), rgb(134, 123, 123));
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+    
+   
+
+}
+
+
